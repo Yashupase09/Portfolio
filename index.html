@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/5cd9e64687.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <!-------------------------header------------------------------->
+       
+        <div id="header">
+                
+            <div class="container">
+                
+                <nav>
+                   <!-- <img src="images/logo.png" class="logo"> -->
+                    <h1><span id="logo">Y</span>ash.</h1>
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#project">Project</a></li>
+                        <li><a href="#contact">Contact</a></li>
+
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                    
+                </nav>
+                <div class="header-text">
+                    <p>Front end Developer</p>
+                    <h1>Hi, I'm <span>Yash</span> Upase <br>From India</h1>
+                </div>
+            </div>
+        </div>
+    </header><!--here the header section of the portfolio i completed-->
+
+     <!-------------------------About------------------------------->
+    <div id="about">
+        <div class="container1">
+            <div class="row">
+                <div class="about-column1">
+                    <img src="images/user1.jpg">
+                </div>
+                <div class="about-column2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>"Hello! I'm Yash Upase, a passionate Engineering Student with a deep love for coding, problem-solving and all things tech-related. My goal is to leverage my programming skills and creativity to innovate and shape the future of technology. Excited to continue learning, growing, and shaping the future through engineering!" </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"  onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"  onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>WEB TECHNOLOGIES</span><br>html,css,javascript </li>
+                            <li><span>PROGRAMMING SKILLS </span><br>c,c++</li>
+                            <li><span>OTHER</span><br>oops,mysql</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>NO WORK EXPERIENCE</span><br> -fresher</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>GRADUATION</span><br>Currently I am pursuing Bachelor of Technology in computer science from Mahakal Institute of Technology and Management, Ujjain.</li>
+                            <li><span>2021</span><br>I completed my higher secondary education from Cambridge Higher Secondary school, Dewas.</li>
+                            <li><span>2019</span><br>I completed my High School education from Cambridge Higher Secondary School,Dewas.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!------------------------------The about section is end here------------------------------------>
+
+<!--------------------------------------services section----------------------------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">MY Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni totam omnis excepturi aspernatur laborum rem!</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>App Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni totam omnis excepturi aspernatur laborum rem!</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>UI/UX Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni totam omnis excepturi aspernatur laborum rem!</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------------------------services section is end here------------------------------>
+
+<!----------------------------portfolio ------------------------------>
+
+<div id="project">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/project1.jpg">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, magnam.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/project2.jpg">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, magnam.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/project3.jpg">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, magnam.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></i></a>
+                </div>
+            </div>
+        </div>
+    </div> 
+</div>      
+<!----------------------------------------portfolio section end here------------------------------------>
+
+<!------------------------------------Contact section--------------------------------------------------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> yashupase777@gmail.com</p>
+                <p> <i class="fa-solid fa-phone-volume"></i> 7869140146</p><br>
+                <div class="social-icons">
+                    
+                    <a href="https://www.linkedin.com/in/yash-upase-1599a32b8"><i class="fa-brands fa-linkedin"></i></a>
+
+                    <a href="https://instagram.com/yashupase09"><i class="fa-brands fa-instagram"></i></a>
+
+                    <a href="https://github.com/Yashupase09"><i class="fa-brands fa-github"></i></a>
+
+                    <a href="https://t.me/UPASE_YASH"><i class="fa-brands fa-telegram"></i></a>
+
+                </div>
+                <a href="images/myresume.pdf" download class=" btn btn2">Download CV</a>
+            </div>
+
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Full Name" required>
+                    <input type="email" name="Email" placeholder="Email Address"  required>
+                    <input type="text" name="Mobile no." placeholder="Mobile Number" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="lastmsg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © 2024 by Yash <i class="fa-solid fa-heart"></i> All Rights Reserved.</p>
+    </div>
+</div>
+<script src="index.js"></script>
+
+</body>
+</html>
+    
